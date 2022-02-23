@@ -70,7 +70,7 @@ Untuk task 2 dan 3, saya memilih desain UI/UX Music Lights.
    User area yang terdapat pada kanan atas memudahkan user untuk melihat informasi tentang akunnya, dan juga notifikasi, pesan ataupun mencari sesuatu yang terdapat di website ini.  
    ![User](screenshots/UX-User.png)
 3. Filtering Data  
-   Pada page lain, terdapat fitur untuk menyaring data yang ingin ditampilkan, fitur ini memudahkan user untuk melihat data berdasarkan tahun, ataupun instrumen.
+   Pada page lain, terdapat fitur untuk menyaring data yang ingin ditampilkan, fitur ini memudahkan user untuk melihat data berdasarkan tahun, ataupun instrumen.  
    ![Filtering Data](screenshots/UX-Filter.png)
 
 ### 3. Tentukan detail fitur dan letak dari UI
