@@ -71,3 +71,5 @@ Untuk membuat prototype, kita bisa lakukan cara berikut:
 ### 2. Buatlah prototype dari desain yang telah kalian buat
 
 Link preview figma untuk tugas section ini bisa diakses di [sini](https://www.figma.com/file/GMhqliR7kpWVZul5RmEUi5/4_Figma).
+
+![Preview](screenshots/figma.png)
