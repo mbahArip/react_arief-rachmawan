@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Praktikum Section 5 - Form</title>
+</head>
+<body>
+  <h1>Buat Account Baru!</h1>
+  <h2>Sign Up Form</h2>
+  <form method="post" action="welcome.html">
+    <div>
+      <label for="firstname">First Name:</label><br>
+      <input type="text" id="firstname"><br><br>
+      <label for="lastname">Last Name:</label><br>
+      <input type="text" id="lastname"><br>
+    </div><br>
+
+    <div>
+      <label for="gender">Gender:</label><br>
+      <input type="radio" name="gender" id="gender"> Male<br>
+      <input type="radio" name="gender" id="gender"> Female<br>
+      <input type="radio" name="gender" id="gender"> Other<br>
+    </div><br>
+
+    <div>
+      <label for="national">Nationality:</label><br>
+      <select name="national" id="national">
+        <option value="id">Indonesia</option>
+        <option value="ca">Canada</option>
+        <option value="ja">Japan</option>
+        <option value="us">United States</option>
+      </select>
+    </div><br>
+
+    <div>
+      <label for="language">Language spoken:</label><br>
+      <input type="checkbox" name="language" id="language"> Bahasa Indonesia<br>
+      <input type="checkbox" name="language" id="language"> English<br>
+      <input type="checkbox" name="language" id="language"> Other<br>
+    </div><br>
+
+    <div>
+      <label for="bio">Bio:</label><br>
+      <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </div>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+</html>
