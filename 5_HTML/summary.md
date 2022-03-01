@@ -82,9 +82,9 @@ Untuk membuat table di html, digunakan tag \<table> dan \<tr> untuk membuat bari
 
 Untuk membuat form di html, digunakan tag \<form>, kemudian di dalam tag form kita bisa mengisinya dengan input / label / button.
 
--   \<input>, tag yang digunakan untuk membuat input dari user. Attribute type diisi dengan tipe input yang akan dibuat, contoh: text, password, email, dan lainnya.
--   \<label>, tag yang digunakan untuk membuat label. Attribute for diisi dengan id input yang akan dibuat label.
--   \<button>, tag yang digunakan untuk membuat button. Attribute type diisi dengan tipe button yang akan dibuat, contoh: submit, reset, dan lainnya.
+- \<input>, tag yang digunakan untuk membuat input dari user. Attribute type diisi dengan tipe input yang akan dibuat, contoh: text, password, email, dan lainnya.
+- \<label>, tag yang digunakan untuk membuat label. Attribute for diisi dengan id input yang akan dibuat label.
+- \<button>, tag yang digunakan untuk membuat button. Attribute type diisi dengan tipe button yang akan dibuat, contoh: submit, reset, dan lainnya.
 
 ---
 
