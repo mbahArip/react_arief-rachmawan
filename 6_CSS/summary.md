@@ -1,97 +1,143 @@
-# 04 Figma
+# 06 CSS
 
 ## Resume
 
 Pada materi ini saya mempelajari:
 
--   Web development
--   HTML
--   Tags yang terdapat di dalam HTML
+-   CSS
+-   CSS Selector
+-   Beberapa contoh property CSS
 
-### Web development
+### CSS
 
-Web development dibagi menjadi 2, yaitu:
+CSS merupakan singkatan dari Cascading Style Sheet, yang digunakan untuk mengatur tampilan dari sebuah website.
+Ada 3 cara menambahkan CSS pada HTML, yaitu:
 
--   Backend, bagian yang tidak berinteraksi langsung dengan user.
--   Frontend, bagian yang berinteraksi langsung dengan user.
+-   External, memasukkan tag \<link rel="stylesheet"> pada tag head.
+-   Internal, menggunakan tag \<style> di dalam HTML.
+-   Inline, menggunakan attribute style di elemen tunggal.
 
-Front end adalah bagian dari website yang membuat tampilan menarik kepada user, terdiri dari 3 komponen utama, yaitu:
+### CSS Selector
 
--   HTML, berfungsi sebagai struktur yang akan membangun komponen website.
--   CSS, berfungsi membuat tampilan website lebih menarik.
--   Javascript, berfungsi untuk membuat website menjadi lebih dinamis.
+Selector di CSS merupakan kode yang digunakan untuk mengidentifikasi elemen yang akan ditampilkan.
+Beberapa contoh selector yang dapat digunakan adalah:
 
-### HTML
+-   \#id, untuk mengidentifikasi elemen dengan id tertentu.
+-   \.class, untuk mengidentifikasi elemen dengan class tertentu.
+-   \[attribute], untuk mengidentifikasi elemen dengan attribute tertentu.
 
-HTML atau Hypertext Markup Language dapat diartikan sebagai bahasa yang menggunakan marka untuk membuat sebuah website.
-Beberapa kegunaan HTML adalah:
+Selector CSS juga dapat digunakan untuk memilih beberapa elemen sekaligus dengan cara menggunakan tanda koma. (Contoh: \#id1, \#id2, \#id3 akan memilih elemen dengan ID id1, id2, dan id3)
 
--   Membuat struktur konten.
--   Mengatur tampilan dan isi dari website.
--   Mempublikasikan halaman website secara online.
+### Contoh property CSS
 
-Beberapa tools code editor yang dapat dipakai antara lain:
+Berikut beberapa contoh property CSS dikelompokkan berdasar fungsi
 
--   Notepad
--   Visual Studio Code
--   Sublime Text
--   Notepad++
--   Atom
+#### Font
 
-### Tags yang terdapat di dalam HTML
+Property ini dapat digunakan untuk mengatur tampilan font pada elemen.
 
-#### Tags penting
+-   font-family, mengatur nama font.
+-   font-size, mengatur ukuran font.
+-   font-style, mengatur gaya font.
+-   font-weight, mengatur tebal font.
+-   font, mengatur semua property font diatas dalam 1 line.
 
-Tags penting yang harus ada di dalam HTML antara lain:
+\@font-face dapat digunakan untuk menambah font kedalam CSS. \@font-face memiliki beberapa property, yaitu:
 
--   <! DOCTYPE html>, mendefinisikan dokumen ini sebagai HTML5.
--   \<html>, elemen root dari halaman html.
--   \<head>, elemen yang berisi informasi seperti judul, deskripsi, dan tag meta.
--   \<title>, elemen yang berisi judul dari halaman.
--   \<body>, elemen yang berisi konten dari halaman.
+-   font-family, nama font yang akan ditambahkan.
+-   font-weight, tebal font yang akan ditambahkan.
+-   font-style, gaya font yang akan ditambahkan.
+-   src, url dari font yang akan ditambahkan.
 
-#### Tags konten
+Contoh:
 
-Tags konten di dalam HTML antara lain:
+```css
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local('Lato-Regular'),
+		url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+```
 
--   \<div>, tag yang biasanya digunakan untuk mengelompokkan elemen lainnya, bisa juga digunakan untuk menampilkan text.
--   \<h1> - \<h6>, tag yang digunakan untuk membuat judul.
--   \<p>, tag yang digunakan untuk membuat paragraf.
--   \<strong>, tag yang digunakan untuk membuat teks bold.
--   \<em>, tag yang digunakan untuk membuat teks italic.
--   \<s>, tag yang digunakan untuk membuat teks strike.
--   \<u>, tag yang digunakan untuk membuat teks underline.
--   \<br>, tag yang digunakan untuk membuat garis baru.
--   \<img>, tag yang digunakan untuk membuat gambar. Attribute src diisi dengan link gambar, dan alt diisi dengan deskripsi gambar.
--   \<a>, tag yang digunakan untuk membuat link dengan memasukkan url yang akan dituju ke attribut href. Untuk membuka link di tab baru, tambahkan target="\_blank" pada tag a.
+#### Margin dan Padding
 
-#### Tags Listing
+Property ini dapat digunakan untuk mengatur margin dan padding atau ruang disekitar elemen.
 
-Tag listing di html ada 2 jenis, yaitu:
+Margin digunakan untuk mengatur jarak elemen ke elemen lain. Sedangkan padding digunakan untuk mengatur ruang disekitar elemen.
 
--   Ordered List (\<ol>), digunakan untuk membuat daftar yang terurut.
--   Unordered List (\<ul>), digunakan untuk membuat daftar yang tidak terurut.
+#### Background
 
-Setiap item dalam daftar harus ditambahkan dengan tag \<li> untuk menandai item tersebut.
+Property ini dapat digunakan untuk mengatur background pada elemen.
 
-#### Tags Table
+-   background-color, mengatur warna background.
+-   background-image, mengatur gambar background.
+-   background-repeat, mengatur pengulangan gambar background.
+-   background-position, mengatur posisi gambar background.
+-   background-size, mengatur ukuran gambar background.
+-   background, mengatur semua property background diatas dalam 1 line.
 
-Untuk membuat table di html, digunakan tag \<table> dan \<tr> untuk membuat baris dan \<td> untuk membuat kolom, dan \<th> untuk membuat kolom dengan judul.
+#### Display
 
-#### Tags Form
+Property ini dapat digunakan untuk mengatur tampilan elemen.
 
-Untuk membuat form di html, digunakan tag \<form>, kemudian di dalam tag form kita bisa mengisinya dengan input / label / button.
+-   block, menampilkan elemen pada baris baru, dimulai dari kiri ke kanan.
+-   inline, menampilkan elemen pada baris yang sama, dimulai dari kiri ke kanan.
+-   none, menyembunyikan elemen.
 
--   \<input>, tag yang digunakan untuk membuat input dari user. Attribute type diisi dengan tipe input yang akan dibuat, contoh: text, password, email, dan lainnya.
--   \<label>, tag yang digunakan untuk membuat label. Attribute for diisi dengan id input yang akan dibuat label.
--   \<button>, tag yang digunakan untuk membuat button. Attribute type diisi dengan tipe button yang akan dibuat, contoh: submit, reset, dan lainnya.
+#### Table
+
+Property ini dapat digunakan untuk mengatur tampilan elemen tabel.
+
+-   border-collapse, mengatur border pada elemen tabel.
+-   table-layout, mengatur tampilan elemen tabel.
+-   border-spacing, mengatur jarak antar border pada elemen tabel.
+
+#### CSS Pseudo
+
+CSS memiliki beberapa pseudo class yang digunakan untuk mengatur tampilan elemen. Beberapa contohnya sebagai berikut:
+
+-   :hover, mengatur elemen saat mouse di hover.
+-   :active, mengatur elemen saat mouse di klik.
+-   :focus, mengatur elemen saat elemen tersebut mendapat focus.
+-   :visited, mengatur elemen saat elemen tersebut telah dikunjungi.
+
+Selain itu, CSS juga memiliki beberapa pseudo element yang digunakan untuk mengatur tampilan elemen. Beberapa contohnya sebagai berikut:
+
+-   ::before, mengatur elemen sebelumnya.
+-   ::after, mengatur elemen setelahnya.
+-   ::first-line, mengatur elemen pertama dari baris.
+-   ::first-letter, mengatur elemen pertama dari huruf.
 
 ---
 
 ## Task
 
-### Buat 3 halaman web sederhana
+### Ubah file1.html menjadi seperti contoh
 
-Untuk tugas section ini, telah saya upload ke [Repository Github](https://github.com/mbahArip/Assignment-HTML).
+#### File task 1 dapat diakses [disini](praktikum/file1.html).
 
-![Index](screenshots/index.png)
+Untuk tugas praktikum pertama, saya harus mengubah file HTML yang telah diberikan menjadi seperti yang terdapat di contoh.
+
+Berikut adalah contoh dari soal:
+
+![Example](screenshots/example1.png)
+
+Berikut hasil yang saya buat:
+
+![Task1](screenshots/task1.png)
+
+### Buat file2.html menjadi seperti contoh
+
+#### File task 2 dapat diakses [disini](praktikum/file2.html).
+
+Untuk tugas praktikum kedua, saya harus membuat file HTML dengan ketentuan yang telah ditentukan.
+
+Berikut adalah contoh dari soal:
+
+![Example](screenshots/example2.png)
+
+Berikut hasil yang saya buat:
+
+![Task1](screenshots/task2.png)
