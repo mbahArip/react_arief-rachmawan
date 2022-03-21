@@ -87,3 +87,12 @@ Ada beberapa router hooks yang dapat digunakan, antara lain:
 ---
 
 ## Task
+
+Pada task kali ini saya harus membuat navigasi menuju page about app, about me, dan page 404 ketika halaman yang dituju tidak ditemukan.
+
+Source code task ini dapat dilihat di [Github Repository](https://www.github.me/mbaharip/Assignment-Todo-List-3)  
+Berikut hasil yang telah saya buat:  
+![Home](./screenshots/home.png)  
+![About App](./screenshots/about-app.png)  
+![About Author](./screenshots/about-me.png)  
+![404](./screenshots/404.png)
