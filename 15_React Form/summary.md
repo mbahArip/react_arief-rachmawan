@@ -138,7 +138,3 @@ Source code dapat dilihat di [Github Repository](https://www.github.com/mbaharip
 ### Alert error
 
 ![alert2](./screenshots/alert-error.png)
-
-```
-
-```
