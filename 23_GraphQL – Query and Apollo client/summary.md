@@ -224,7 +224,9 @@ export default cache;
 
 ## Task
 
-Pada section ini saya harus mengaplikasikan graphQL di project todo-list yang telah dibuat.
+Pada section ini saya harus mengaplikasikan graphQL di project todo-list yang telah dibuat, kemudian saya harus menambahkan fitur filter berdasarkan ID.
 
 Berikut hasil task yang saya buat:
-[Github Respository](https://www.github.com/mbaharip/Assignment-GraphQL-Query)
+[Github Respository](https://www.github.com/mbaharip/Assignment-GraphQL-Query)  
+![Todo](./screenshots/todo.png)  
+![Filter](./screenshots/filter.png)
