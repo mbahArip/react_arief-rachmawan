@@ -228,3 +228,4 @@ Pada section ini saya harus mengaplikasikan subscription di project yang sudah s
 
 Berikut hasil task yang saya buat:
 [Github Respository](https://www.github.com/mbaharip/Assignment-GraphQL-Subscription)
+![Result](./screenshots/result.png)
