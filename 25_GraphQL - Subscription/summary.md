@@ -1,4 +1,4 @@
-# 24 GraphQL - Mutation
+# 25 GraphQL - Subscription
 
 ## Resume
 
@@ -224,8 +224,7 @@ export default cache;
 
 ## Task
 
-Pada section ini saya harus membuat fitur create, update, dan delete menggunakan graphQL
+Pada section ini saya harus mengaplikasikan subscription di project yang sudah saya buat.
 
 Berikut hasil task yang saya buat:
-[Github Respository](https://www.github.com/mbaharip/Assignment-GraphQL-Mutation)  
-![Result](./screenshots/hasil.png)
+[Github Respository](https://www.github.com/mbaharip/Assignment-GraphQL-Subscription)
