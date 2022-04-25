@@ -1,0 +1,2 @@
+Github Repository: https://github.com/mbahArip/Assignment-Weekly-2
+Netlify Deploy: https://ariefrachmawan-reacta-weekly2.netlify.app/
